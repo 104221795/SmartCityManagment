@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['bent', 'broken-sheet', 'crack', 'graffiti', 'not-damaged', 'rust']
+
+roboflow:
+  workspace: sign-detection-x0fra
+  project: finaldataset-0xx7r
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/sign-detection-x0fra/finaldataset-0xx7r/dataset/1
